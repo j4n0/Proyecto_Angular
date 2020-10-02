@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Proyecto';
+  public name: string ="Shiba Inu";
+
+//Habilitar Classes a html
+  public available: boolean=true;
+
+  public photo1: string = "https://material.angular.io/assets/img/examples/shiba2.jpg";
+
+  //ngfor
+  public skills: string[] = ['lindo', 'horrible', 'feo'];
+
 }
