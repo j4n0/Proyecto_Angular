@@ -10,6 +10,10 @@ import { HeaderComponent } from './components/header/header.component';
 import { AboutComponent } from './components/about/about.component';
 import { ProductComponent } from './components/product/product.component';
 
+
+//router
+import {app_routing } from './app.routes'
+
 /*Material Impornt*/
 import { MaterialModule } from './material/material.module';
 
@@ -28,7 +32,8 @@ import { MaterialModule } from './material/material.module';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    app_routing
   ],
   providers: [],
   bootstrap: [AppComponent]
