@@ -10,6 +10,9 @@ import { HeaderComponent } from './components/header/header.component';
 import { AboutComponent } from './components/about/about.component';
 import { ProductComponent } from './components/product/product.component';
 
+//servicios
+
+import {HttpClientModule} from"@angular/common/http";
 
 //router
 import {app_routing } from './app.routes'
@@ -33,6 +36,7 @@ import { MaterialModule } from './material/material.module';
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
+    HttpClientModule,
     app_routing
   ],
   providers: [],
